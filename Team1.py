@@ -1,4 +1,5 @@
-for x in range(0, 100):
+x= 0
+while x < 100:
     if(x%5==0 and x%3==0):
         print('FizzBuzz')
     elif(x%5==0 and x%3==0 and x%2 ==0):
@@ -15,4 +16,5 @@ for x in range(0, 100):
         print("GIT")
     else:
         print(x)
-
+    print('johnjohnpenisman')
+    x = x +1
