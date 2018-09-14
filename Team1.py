@@ -5,7 +5,12 @@ for x in range(0, 100):
         print('github')
 
     if x % 11 == 0:
+
         print('PULL')
+
+        print('PULL');
+ 
+
     if (x % 10 == 0):
         print("github")
 
@@ -14,4 +19,7 @@ for x in range(0, 100):
             print("Version")
         else:
             print(x)
+
+            if (x % 3 == 0):
+                print("fizz")
 
