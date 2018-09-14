@@ -1,4 +1,4 @@
-for x in range(0, 100):
+while x < 100:
     if(x%5==0 and x%3==0):
         print('FizzBuzz')
     else:
@@ -21,4 +21,4 @@ for x in range(0, 100):
                                 print("GIT")
                             else:
                                 print(x)
-
+    print('johnjohnpenisman')
