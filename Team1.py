@@ -16,5 +16,5 @@ while x < 100:
         print("GIT")
     else:
         print(x)
-    print('johnjohnpenisman')
-    x = x +1
+    x = x + 1
+print ("We are Github masters now")
