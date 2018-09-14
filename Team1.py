@@ -1,2 +1,6 @@
 for x in range(0, 100):
-    print('penis');
+    if (x % 11 == 0):
+        print("PUSH")
+    else:
+        print(x)
+
