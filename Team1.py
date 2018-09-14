@@ -5,4 +5,7 @@ for x in range(0, 100):
         print("github")
 
     else:
-        print(x);
+        if (x % 9 == 0):
+            print("Version")
+        else:
+            print(x);
