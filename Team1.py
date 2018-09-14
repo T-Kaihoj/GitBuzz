@@ -20,5 +20,8 @@ for x in range(0, 100):
                             if (x%2 == 0):
                                 print("GIT")
                             else:
-                                print(x)
+                                if (x%5 ==0):
+                                    print("BuZZ")
+                                else:
+                                    print(x)
 
