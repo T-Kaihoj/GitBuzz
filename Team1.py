@@ -10,3 +10,6 @@ for x in range(0, 100):
     else:
         if (x % 9 == 0):
             print("Version")
+        else:
+            if (x % 3 == 0):
+                print("fizz")
