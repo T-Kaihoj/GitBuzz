@@ -1,2 +1,5 @@
 for x in range(0, 100):
-    print('penis');
+    if (x % 10 == 0):
+        print("github")
+    else:
+        print(x);
