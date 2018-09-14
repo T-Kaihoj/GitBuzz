@@ -8,4 +8,7 @@ for x in range(0, 100):
         if (x % 9 == 0):
             print("Version")
         else:
-            print(x);
+            if (x % 3 == 0):
+                print("fizz")
+            else:
+                print(x);
